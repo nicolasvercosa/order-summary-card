@@ -13,10 +13,10 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+![screenshot mobile](https://user-images.githubusercontent.com/81280219/134057185-a5ac7341-0f4e-4c50-8cd7-971eb96035a6.png)
 
-![screenshot desktop](/home/nicolas/Downloads/screenshot desktop.png)
+![screenshot desktop](https://user-images.githubusercontent.com/81280219/134057207-a7f828f4-3bd0-4892-89f8-f364c7ae0975.png)
 
-![screenshot mobile](/home/nicolas/Downloads/screenshot mobile.png)
 
 ### Links
 
