@@ -21,10 +21,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    height: 105vh;
-    min-height: 90vh;
+    height: 100vh;
+    min-height: 50vh;
     position: relative; 
+    display: flexbox;
 }
+
+
 
 .hero-image img{
     size: 100%;
