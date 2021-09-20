@@ -15,22 +15,20 @@ body {
 
 .main {  
     background-color: #ffffff;
-    width: 380px;
+    width: 390px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    height: 50vh;
+    height: 105vh;
     min-height: 90vh;
-    position: relative;
-    
-   
+    position: relative; 
 }
 
 .hero-image img{
     size: 100%;
-    width: 380px;
+    width: 390px;
     position: relative;
     justify-content: center;
     border-top-right-radius: 20px;
@@ -38,17 +36,18 @@ body {
 } 
 .plan-box {
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 0;
+
 }
     
 .plan {
     display: inline-flex;
     background-color:  #f8f9fe;
-    border-radius: 8px;
-    padding: 18px;
+    border-radius: 7px;
+    padding: 20px;
     width: 100;
     text-align: center;
-   /* margin-left: 30px; 
-    margin-right: 30px; */
     margin-top: 20px;
     
 }
@@ -61,7 +60,9 @@ h1 {
     color: #1b2e4f;
 }
 
-
+p {
+    margin-top: 10px;
+}
 
 p, .cancel-order{
     font-size: 16px;
@@ -76,37 +77,24 @@ p, .cancel-order{
 
 .payment-button {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 4px;
 }
 
 .payment-button button {
+    margin-top: 30px;
     border: none;
-    background-color: #766cf1;  
-    padding: 15px;
-    width:300px;
+    background-color: #382ae2;  
+    padding: 14px;
+    width:310px;
     color: white;
-    font-weight: 70;
-    border-radius: 10px;
-}
-
-.annual{
-    text-align: center;
-}
-.change-button {
-    margin: auto;
-    align-items: center;
-    text-align: center;
-}
-
-.cancel-order{
-    padding: 1px;
     font-weight: 700;
-    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor:  pointer;
 }
 
-.cancel-order span:hover {
-    color: #222e44;
-    cursor: pointer;
+.payment-button button:hover {
+    background-color: #766cf1;
 }
 
 .annual {
@@ -114,11 +102,46 @@ p, .cancel-order{
     font-weight: 700;
 }
 
+.annual, .price{
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 0;
+    margin-bottom: 0; 
+}
+
+.price {
+   margin-top: 0;
+}
+
+.change-button {
+    margin: auto;
+    margin-left: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.change-button a:hover {
+    text-decoration: none;
+    color: #7280A7;
+}
+
+.cancel-order{
+    padding: 1px;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.cancel-order span:hover {
+    color: #222e44;
+    cursor: pointer;
+}
 
 footer{
-    bottom: 0;
+   
     width: 100%; 
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 10px;
      
 }
 
@@ -131,4 +154,10 @@ footer{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    body {
+        background-image: image-set("/image/pattern-background-mobile.svg");
+    }
 }
