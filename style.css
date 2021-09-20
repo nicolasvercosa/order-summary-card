@@ -4,13 +4,15 @@
     padding: 0;
 }
 body {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #e0e8ff;
     font-family: 'Red Hat Display', sans-serif;
     justify-content: center;
-    display: inline;
+    /*display: inline; */
+    display: flex;
+    flex-direction: column;
 }
 
 .main {  
@@ -24,10 +26,9 @@ body {
     height: 100vh;
     min-height: 50vh;
     position: relative; 
-    display: flexbox;
+    
+  
 }
-
-
 
 .hero-image img{
     size: 100%;
@@ -48,8 +49,8 @@ body {
     display: inline-flex;
     background-color:  #f8f9fe;
     border-radius: 7px;
-    padding: 20px;
-    width: 100;
+    padding: 1em;
+    width: 18em;
     text-align: center;
     margin-top: 20px;
     
@@ -88,7 +89,7 @@ p, .cancel-order{
     border: none;
     background-color: #382ae2;  
     padding: 14px;
-    width:310px;
+    width: 20em;
     color: white;
     font-weight: 700;
     font-size: 14px;
@@ -118,7 +119,6 @@ p, .cancel-order{
 
 .change-button {
     margin: auto;
-    margin-left: 30px;
     align-items: center;
     text-align: center;
 }
@@ -131,7 +131,7 @@ p, .cancel-order{
 .cancel-order{
     padding: 1px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 14px;
 }
 
@@ -161,6 +161,10 @@ footer{
 
 @media (max-width: 375px) {
     body {
-        background-image: image-set("/image/pattern-background-mobile.svg");
+        width: 300px;
+        background-image: image-set("image/pattern-background-mobile.svg");
     }
 }
+
+
+
